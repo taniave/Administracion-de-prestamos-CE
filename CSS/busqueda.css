@@ -1,0 +1,32 @@
+#search
+{
+  background-color: #FAD016;
+  display: block;
+  text-align:center;
+  padding-left:auto;
+  padding-right: auto;
+  height: 30px;
+}
+
+input[type=text]{
+
+	width:15%;
+	padding:5px 5px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	background-color: #FFF6D9;
+	font-family: 'Roboto Condensed', sans-serif;
+	border-style: solid;
+}
+
+input[type=submit]{
+
+	background-color: black;
+	border: 10px;
+	color: white;
+	padding: 5px 6px;
+	display: inline-block;
+	font-size:10 px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+

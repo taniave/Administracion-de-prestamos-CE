@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<HTML>
+	<head>  
+
+		<title> Centro de Escritura</title>
+		<meta charset="UTF-8">
+
+		<script> document.createElement("Banner") </script>
+		<script> document.createElement("Banner2") </script>
+		<link rel="stylesheet" type="text/css" href="CSS/menu.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+		<link rel="icon" type="text/css" href="IMG/pen.png">
+
+		<style>
+			Banner{
+				display: block;
+				background-color:#EEFBFF;
+				padding: 30px;
+				font-size: 25px;
+				text-align: center;
+				font-family: 'Roboto Condensed', sans-serif;
+			}
+			
+			
+			Banner2{
+				display: block;
+				background-color: #EEFBFF;
+				padding: 5px;
+				font-size: 15px;
+				text-align: left;
+				font-family: 'Roboto Condensed', sans-serif;
+			}	
+		</style>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body style="font-family: Roboto Condensed; font-size: 15px;">
+
+		<Banner >Centro de Escritura</Banner>
+		<div id="menu-top">
+			
+			<ul id="lista"> <!--  -->
+				<button id="boton_menu" onclick="location.href ='index.html'">Inicio</button>
+				<button id="boton_menu" onclick="location.href ='conocenos.html'">Conócenos</button>
+				<button id="boton_menu" onclick="location.href ='PHP/biblioteca.php'">Biblioteca</button>
+				<button id="boton_menu" onclick="location.href ='ubicacion.html'">Ubicación</button>
+			</ul>
+
+		</div>
+		
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:700px; height:400px !important; margin: auto;">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		    <li data-target="#myCarousel" data-slide-to="3"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox" >
+		    <div class="item active">
+		      <img src="IMG/integrity.jpg" alt="blind_date">
+		    </div>
+
+		    <div class="item">
+		      <img src="IMG/pluma_aguila.jpg" alt="pluma_aguila">
+		    </div>
+
+		    <div class="item">
+		      <img src="IMG/libros.jpg" alt="libros">
+		    </div>
+
+		    <div class="item">
+		      <img src="IMG/blind_date.jpg" alt="reto">
+		    </div>
+
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+		
+		<div class="container-fluid" style="padding-left:3%; padding-right:3%; padding-top: 3%;">
+			  <div class="row">
+			    <div class="col-md-6" align="center" >
+			      <a href="conocenos.html"><img src="IMG/tutoria1.jpg" width="450px" height="400px" title ="foto informativa"></a>
+			    </div>
+			    <div class="col-md-6" align="justify">
+			      		<h2 align="center">Conócenos</h2><br>
+						<p>Somos una comunidad de estudiantes y profesores que se toman la escritura en serio y buscan impulsar a otros para mejorar su proceso de escritura, y amar la lectura.</p><br>
+						<p>Queremos ser una comunidad de estudiantes y profesores críticos y comprometidos, con una preparación certificada en el apoyo y el fomento a la cultura escrita.</p><br>
+						<h3 align="center"><a href="conocenos.html">Ver más</a></h3>    
+			    </div>
+			  </div>
+
+			  <div class="row">
+				    <div class="col-md-6" align="justify" >
+				      <h2 align="center">Sala de Lectura</h2><br>
+				      <p>Es una estrategia informal para el fomento a la lectura. Puede llevarse a cabo en espacios determinados o bien de forma itinerante.
+								 Recibimos el soporte del Programa Nacional de Salas de Lectura (PNSL) a través de una capacitación como mediadores de lectura y de la entrega de un acervo bibliográfico inicial. 
+								 El acervo se diseña para un público diverso a fin de resultar atractivo y suscitar el interés en un número mayor de lectores potenciales.
+								</p><br>
+						<h3 align="center"><a href="PHP/biblioteca.php">Conoce nuestra biblioteca</a></h3>
+				    </div>
+				    <div class="col-md-6" style="text-align: center;" >
+				      	<a href="biblioteca.html"><img src="IMG/sala.jpg" width="339px" height="230px" title="foto informativa" align="center"></a>
+				    </div>
+			  </div>
+
+			  <div class="row">
+			    <div class="col-md-6" >
+			      <a href="Ubicacion.html"><img src="IMG/sala1.jpg" width="498px" height="400px" title="foto informativa"></a>
+
+			    </div>
+			    <div class="col-md-6" >
+			      	<h2 align="center">Ubicacion</h2><br>
+					<p align="center">Te esperamos en el primer piso del edificio de idiomas</p><br>
+					<h3 align="center"><a href="ubicacion.html">Ver Ubicacion</a></h3>	    
+			    </div>
+			  </div>
+		</div>
+		
+		
+		<Banner2><a href="PHP/login_admin.php"><img src="IMG/admin.png"></a></Banner2>
+
+	</body>
+
+</HTML>
